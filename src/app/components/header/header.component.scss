@@ -1,16 +1,17 @@
 .header {
-    background-image: url('../../../assets/header/buildings.jpg');
+    background-image: url('../../../assets/header/buildings.webp');
     height: 90rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
+
     &__bar {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 1rem;
-        background-color: rgba(43, 42, 42, 0.8);
+        background-color: var(--transparent-black);
 
         @media (min-width: 768px) {
             flex-direction: row;
@@ -70,16 +71,41 @@
     }
 
     &__link {
-        color: #fff;
+        color: var(--white);
         font-size: 1.8rem;
         margin-bottom: 2rem;
         text-decoration: none;
 
-        &:last-of-type {
+        @media (min-width: 768px) {
             margin-bottom: 0;
         }
+    }
+}
 
-        @media (min-width: 768px) {
+.header__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        margin-bottom: 2rem;
+        color: var(--white);
+        font-size: 1.8rem;
+        text-decoration: none;
+
+        &:last-of-type {
+            background-color: var(--primary-blue);
+            padding: 1rem 1.7rem 1rem 1.7rem;
+            border-radius: .5rem;
+        }
+    }
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+
+        a {
             margin-bottom: 0;
         }
     }
