@@ -8,10 +8,22 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+:root {
+    /*Colors*/
+    --transparent-black: rgba(43, 42, 42, 0.8);
+    --transparent-blackDarken: rgba(20, 20, 20, 0.8);
+    --white: #fff;
+
+    /*Button colors*/
+    --primary-blue: #0077B6;
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
     line-height: 1.15;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
@@ -21,6 +33,13 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+//Globals
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 /* Sections
