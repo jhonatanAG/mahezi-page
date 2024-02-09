@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
 
     &__bar {
         display: flex;
@@ -109,4 +109,47 @@
             margin-bottom: 0;
         }
     }
+}
+
+.header__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 2rem 0 2rem;
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    h2 {
+        margin: 0;
+    }
+
+    span {
+        font-weight: 700;
+    }
+
+    @media (min-width: 768px) {
+        justify-content: left;
+
+        h2 {
+            padding: 5rem;
+            margin-top: 10rem;
+            font-size: 8rem;
+        }
+    }
+}
+
+.header__travel {
+    color: var(--white);
+    font-size: 1.8rem;
+
+    p {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.header__sercher {
+    display: flex;
+    justify-content: center;
 }
