@@ -55,11 +55,21 @@
     input {
         padding: 1rem;
         margin: auto;
+        color: var(--white);
+        font-size: 1.6rem;
+        font-weight: 700;
+        background-color: var(--primary-blue);
+        text-transform: uppercase;
+        border: none;
+    }
+
+    input:hover {
+        cursor: pointer;
     }
 
     @media (min-width: 768px) {
         input {
-            padding: 2rem;
+            padding: 1.5rem;
         }
     }
 }
