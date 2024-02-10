@@ -1,6 +1,6 @@
 .header {
     background-image: url('../../../assets/header/buildings.webp');
-    height: 90rem;
+    height: 100rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -147,9 +147,4 @@
         text-align: center;
         margin: 0;
     }
-}
-
-.header__sercher {
-    display: flex;
-    justify-content: center;
 }
