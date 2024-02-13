@@ -20,7 +20,7 @@ import { BlogComponent } from './components/blog/blog.component';
   imports: [
     CommonModule,
     HomeRoutingModule
-  ], 
+  ],
   exports: [
     SearcherComponent,
     MainComponent
