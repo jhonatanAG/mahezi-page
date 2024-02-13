@@ -4,6 +4,7 @@ import { SearcherComponent } from './components/searcher/searcher.component';
 import { MainComponent } from './components/main/main.component';
 import { MostSearchedComponent } from './components/most-searched/most-searched.component';
 import { HomeRoutingModule } from './home-routing.module';
+import { TravelComponent } from './components/travel/travel.component';
 
 
 
@@ -11,7 +12,8 @@ import { HomeRoutingModule } from './home-routing.module';
   declarations: [
     SearcherComponent,
     MainComponent,
-    MostSearchedComponent
+    MostSearchedComponent,
+    TravelComponent
   ],
   imports: [
     CommonModule,
