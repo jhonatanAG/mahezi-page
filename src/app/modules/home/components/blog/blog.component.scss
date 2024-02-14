@@ -64,3 +64,52 @@
         }
     }
 }
+
+.galery {
+    background-image: linear-gradient(to top, transparentize(#000, .1) 0%, transparentize(#fff, .1) 100%), url('../../../../../assets/blog/palmeras.jpg');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+
+    .galery__title {
+        padding: 1rem;
+
+        h2 {
+            font-size: 5rem;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        span {
+            font-weight: 700;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 2rem;
+        }
+    }
+
+    .galery__items {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        @media (min-width: 769px) {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .galery__img {
+            img {
+                border-radius: 2rem;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
