@@ -1,0 +1,66 @@
+.blog__container {
+    background-image: linear-gradient(to left, transparentize(#000, .1) 0%, transparentize(#303031, .3) 100%), url('../../../../../assets/blog/fondoNewYork.jpg');
+    height: 100rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+
+    @media (min-width: 769px) {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .blog__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100%;
+            display: block;
+            border-radius: 2rem;
+        }
+
+        @media (min-width: 769px) {
+            width: 100%;
+        }
+    }
+
+    .blog__info {
+        color: var(--white);
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 400;
+            letter-spacing: 1rem;
+            margin: 0;
+            text-transform: uppercase;
+        }
+    }
+
+    .info__description {
+        h3 {
+            font-size: 5rem;
+            letter-spacing: 2rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 1.8rem;
+            text-align: justify;
+        }
+
+        @media (min-width: 769px) {
+            p {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
