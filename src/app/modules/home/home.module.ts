@@ -6,6 +6,7 @@ import { MostSearchedComponent } from './components/most-searched/most-searched.
 import { HomeRoutingModule } from './home-routing.module';
 import { TravelComponent } from './components/travel/travel.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { PricingComponent } from './components/pricing/pricing.component';
 
 
 
@@ -15,7 +16,8 @@ import { BlogComponent } from './components/blog/blog.component';
     MainComponent,
     MostSearchedComponent,
     TravelComponent,
-    BlogComponent
+    BlogComponent,
+    PricingComponent
   ],
   imports: [
     CommonModule,
