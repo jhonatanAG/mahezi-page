@@ -7,6 +7,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { TravelComponent } from './components/travel/travel.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { ExploreComponent } from './components/explore/explore.component';
 
 
 
@@ -17,7 +18,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
     MostSearchedComponent,
     TravelComponent,
     BlogComponent,
-    PricingComponent
+    PricingComponent,
+    ExploreComponent
   ],
   imports: [
     CommonModule,
