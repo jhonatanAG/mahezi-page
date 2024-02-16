@@ -8,6 +8,7 @@ import { TravelComponent } from './components/travel/travel.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { ExploreComponent } from './components/explore/explore.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 
 
@@ -19,7 +20,8 @@ import { ExploreComponent } from './components/explore/explore.component';
     TravelComponent,
     BlogComponent,
     PricingComponent,
-    ExploreComponent
+    ExploreComponent,
+    CarouselComponent
   ],
   imports: [
     CommonModule,
