@@ -1,4 +1,118 @@
 .footer {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--black-footer);
+
+    .footer__container {
+        font-size: 1.8rem;
+        padding: 2rem;
+
+        h3 {
+            color: var(--white);
+            letter-spacing: .5rem;
+        }
+
+        a,
+        p {
+            color: var(--gray-secundary);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 4rem 0 0 0;
+        }
+
+        .footer__brand {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                display: block;
+                width: 40%;
+            }
+
+            .footer__social {
+                padding: 2rem;
+                display: flex;
+                gap: 2rem;
+
+                .icon {
+                    border: 1px solid var(--blue-social);
+                    padding: 1rem;
+
+                    a {
+                        color: var(--blue-social);
+                    }
+
+                }
+
+                .icon:hover {
+                    background-color: var(--blue-social);
+                    cursor: pointer;
+
+                    a {
+                        color: var(--white);
+                    }
+                }
+            }
+        }
+
+        .services,
+        .links {
+            nav {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+        }
+
+        .services nav a:last-of-type {
+            @media (min-width: 768px) {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .services nav a:hover,
+        .links nav a:hover {
+            text-decoration: underline;
+        }
+
+        .contact {
+            .contact__info {
+                text-align: justify;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                p:first-of-type {
+                    line-height: 3rem;
+                }
+            }
+        }
+    }
+
+    .footer__copyright {
+        padding: 2rem;
+        border-top: 1px solid var(--gray-secundary);
+
+        p {
+            text-align: center;
+            font-size: 1.6rem;
+            color: var(--gray-secundary);
+            margin: 0;
+
+            a {
+                color: var(--blue-social);
+            }
+        }
+    }
 }

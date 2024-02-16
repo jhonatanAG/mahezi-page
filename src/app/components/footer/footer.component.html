@@ -1,5 +1,17 @@
 <footer class="footer">
-    <div>
+    <div class="footer__container container">
+        <div class="footer__brand">
+            <img src="../../../assets/logos/logo_vertical.png" loading="lazy" alt="Logo Mahezi">
+
+            <div class="footer__social">
+                <div class="icon">
+                    <a href="#"><fa-icon [icon]="faInstagram"></fa-icon></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><fa-icon [icon]="faTikTok"></fa-icon></a>
+                </div>
+            </div>
+        </div>
         <div class="services">
             <h3>Servicios</h3>
 
@@ -24,22 +36,23 @@
                 <a href="#">Contacto</a>
             </nav>
         </div>
-        <div>
+        <div class="contact">
             <h3>Contacto</h3>
 
-            <p>
-                Uxmal 499, Ofic. 5 y 6,
-                Colonia Vértiz Narvarte, Benito Juárez,
-                03600 Ciudad de México, CDMX
-            </p>
-            <p>558 930 9113</p>
-            <p>
-                contacto@mahezitravel.com
-            </p>
+            <div class="contact__info">
+                <p>
+                    Uxmal 499, Ofic. 5 y 6,
+                    Colonia Vértiz Narvarte, Benito Juárez,
+                    03600 Ciudad de México, CDMX
+                </p>
+                <p>558 930 9113</p>
+                <p>
+                    contacto@mahezitravel.com
+                </p>
+            </div>
         </div>
-        <div></div>
     </div>
-    <div>
+    <div class="footer__copyright">
         <p>Copyright &copy; <a href="#">mahezitravel.com</a>. All Rights Reserved.</p>
     </div>
 </footer>
