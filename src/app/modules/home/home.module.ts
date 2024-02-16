@@ -28,8 +28,9 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     HomeRoutingModule
   ],
   exports: [
+    MainComponent,
     SearcherComponent,
-    MainComponent
+    CarouselComponent
   ]
 })
 export class HomeModule { }
