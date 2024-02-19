@@ -9,6 +9,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { ExploreComponent } from './components/explore/explore.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 
@@ -21,7 +22,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     BlogComponent,
     PricingComponent,
     ExploreComponent,
-    CarouselComponent
+    CarouselComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
