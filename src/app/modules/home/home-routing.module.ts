@@ -4,7 +4,6 @@ import { NgModule } from "@angular/core";
 import { TravelComponent } from "./components/travel/travel.component";
 import { BlogComponent } from "./components/blog/blog.component";
 import { PricingComponent } from "./components/pricing/pricing.component";
-import { ExploreComponent } from "./components/explore/explore.component";
 import { AboutComponent } from "./components/about/about.component";
 import { ServicesComponent } from "./components/services/services.component";
 
@@ -13,7 +12,6 @@ const routes: Routes = [
   { path: 'travel', component: TravelComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'pricing', component: PricingComponent },
-  { path: 'explore', component: ExploreComponent },
   { path: 'about', component: AboutComponent },
   { path: 'services', component: ServicesComponent }
   

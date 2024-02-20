@@ -7,7 +7,6 @@ import { HomeRoutingModule } from './home-routing.module';
 import { TravelComponent } from './components/travel/travel.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { PricingComponent } from './components/pricing/pricing.component';
-import { ExploreComponent } from './components/explore/explore.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
@@ -22,7 +21,6 @@ import { ServicesComponent } from './components/services/services.component';
     TravelComponent,
     BlogComponent,
     PricingComponent,
-    ExploreComponent,
     CarouselComponent,
     AboutComponent,
     ServicesComponent
