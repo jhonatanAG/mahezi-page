@@ -1,0 +1,121 @@
+.section__contact {
+    background-color: #F2F2F2;
+    padding-bottom: 5rem;
+
+    .contact__img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: var(--white);
+        height: 30rem;
+        background-image: linear-gradient(to left, transparentize(#000, .5) 0%, transparentize(#38383a, .5) 100%), url('../../../../../assets/about/hintersee.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        h2 {
+            font-size: 5rem;
+        }
+
+
+        .contact__title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: .5rem;
+            color: var(--white);
+            font-size: 2rem;
+
+            a {
+                color: var(--white);
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .text-contact {
+        font-weight: 700;
+        margin: 5rem 0 3rem 0;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .formulario {
+        max-width: 60rem;
+        margin: 0 auto;
+        background-color: var(--white);
+        padding-bottom: 2rem;
+
+        @media (min-width: 769px) {
+            padding: 2rem;
+        }
+    }
+
+    .formulario fieldset {
+        border: 1px solid black;
+        margin-bottom: 2rem;
+    }
+
+    .formulario legend {
+        background-color: var(--primary-blue);
+        width: 100%;
+        text-align: center;
+        color: var(--white);
+        text-transform: uppercase;
+        font-weight: 900;
+        padding: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .campo {
+        display: flex;
+        margin-bottom: 2rem;
+
+        label {
+            flex-basis: 10rem;
+            font-weight: 700;
+            font-size: 1.6rem;
+        }
+
+        input,
+        textarea {
+            font-size: 1.4rem;
+        }
+    }
+
+    .campo input:not([type="radio"]),
+    .campo textarea,
+    .campo select {
+        flex: 1;
+        border: 1px solid #e1e1e1;
+        padding: 1rem;
+    }
+
+    .btn {
+        background-color: var(--primary-blue);
+        display: block;
+        color: var(--white);
+        text-transform: uppercase;
+        font-weight: 900;
+        padding: 1rem;
+        transition: background-color .3s ease-out;
+        text-align: center;
+        border: none;
+        font-size: 1.6rem;
+    }
+
+    .btn:hover {
+        background-color: #1B3B6F;
+        cursor: pointer;
+    }
+}
