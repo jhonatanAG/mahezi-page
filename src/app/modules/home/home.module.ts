@@ -6,10 +6,10 @@ import { MostSearchedComponent } from './components/most-searched/most-searched.
 import { HomeRoutingModule } from './home-routing.module';
 import { TravelComponent } from './components/travel/travel.component';
 import { BlogComponent } from './components/blog/blog.component';
-import { PricingComponent } from './components/pricing/pricing.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -20,10 +20,10 @@ import { ServicesComponent } from './components/services/services.component';
     MostSearchedComponent,
     TravelComponent,
     BlogComponent,
-    PricingComponent,
     CarouselComponent,
     AboutComponent,
-    ServicesComponent
+    ServicesComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
