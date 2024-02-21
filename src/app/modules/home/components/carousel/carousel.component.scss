@@ -1,7 +1,6 @@
-#mySlider {
-    position: relative;
-    width: 100%;
-    z-index: -1;
+#carousel img {
+    object-fit: cover;
+    height: 70rem;
 }
 
 #searchContainer {
@@ -12,22 +11,17 @@
 }
 
 .text__relax {
-    display: none;
+    font-size: 4rem;
+    color: var(--white);
 
     @media (min-width: 769px) {
-        display: block;
-        color: var(--white);
         font-size: 8rem;
     }
 }
 
 .text__traveling {
-    display: none;
 
-    @media (min-width: 769px) {
-        display: block;
-        text-align: center;
-        color: var(--white);
-        font-size: 1.8rem;
-    }
+    text-align: center;
+    color: var(--white);
+    font-size: 1.8rem;
 }
