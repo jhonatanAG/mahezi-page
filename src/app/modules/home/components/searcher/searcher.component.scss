@@ -5,7 +5,7 @@
 }
 
 .sercher__global {
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
         display: flex;
         align-items: center;
     }
@@ -19,7 +19,7 @@
     padding: 2.5rem;
     border-radius: 1.5rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
         font-size: 1.3rem;
         flex-direction: row;
         gap: .5rem;
@@ -39,7 +39,7 @@
         border-bottom: 1px solid var(--white);
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
         input {
             padding: 1rem;
         }
@@ -67,7 +67,7 @@
         cursor: pointer;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
         input {
             padding: 1.5rem;
         }
