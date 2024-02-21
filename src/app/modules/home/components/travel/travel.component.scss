@@ -39,42 +39,6 @@
     }
 }
 
-.travel__info--container {
-    background-image: url('../../../../../assets/travel/glaciar.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 5rem;
-    flex-direction: column;
-    gap: 2rem;
-
-    @media (min-width: 768px) {
-        flex-direction: row;
-        gap: 0;
-    }
-
-    .travel__info {
-        background-color: var(--white);
-        padding: 2rem;
-        width: 15rem;
-        height: 15rem;
-        display: flex;
-        flex-direction: column;
-        border-radius: 2rem;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-
-        p {
-            margin: 0;
-            text-transform: uppercase;
-        }
-    }
-}
-
 .travel__offers {
     margin-top: 5rem;
     margin-bottom: 5rem;

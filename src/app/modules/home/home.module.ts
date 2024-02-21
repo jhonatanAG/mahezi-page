@@ -10,6 +10,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { EntryBlogComponent } from './components/entry-blog/entry-blog.component';
 
 
 
@@ -23,7 +24,8 @@ import { ContactComponent } from './components/contact/contact.component';
     CarouselComponent,
     AboutComponent,
     ServicesComponent,
-    ContactComponent
+    ContactComponent,
+    EntryBlogComponent
   ],
   imports: [
     CommonModule,

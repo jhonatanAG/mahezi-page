@@ -1,0 +1,156 @@
+.blog__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    height: 30rem;
+    background-image: linear-gradient(to left, transparentize(#000, .5) 0%, transparentize(#38383a, .5) 100%), url('../../../../../assets/about/hintersee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    h2 {
+        font-size: 5rem;
+    }
+
+
+    .blog__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        color: var(--white);
+        font-size: 2rem;
+
+        a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.blog__container {
+    background-image: linear-gradient(to left, transparentize(#000, .1) 0%, transparentize(#303031, .3) 100%), url('../../../../../assets/blog/fondoNewYork.jpg');
+    height: 100rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+
+    @media (min-width: 769px) {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .blog__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100%;
+            display: block;
+            border-radius: 2rem;
+        }
+
+        @media (min-width: 769px) {
+            width: 100%;
+        }
+    }
+
+    .blog__info {
+        color: var(--white);
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 400;
+            letter-spacing: 1rem;
+            margin: 0;
+            text-transform: uppercase;
+        }
+    }
+
+    .info__description {
+        h3 {
+            font-size: 5rem;
+            letter-spacing: 2rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 1.8rem;
+            text-align: justify;
+        }
+
+        @media (min-width: 769px) {
+            p {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+.galery {
+    background-image: linear-gradient(to top, transparentize(#000, .1) 0%, transparentize(#fff, .1) 100%), url('../../../../../assets/blog/palmeras.jpg');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+
+    .galery__title {
+        padding: 1rem;
+
+        h2 {
+            font-size: 7rem;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        span {
+            font-weight: 700;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 3rem;
+        }
+    }
+
+    .galery__items {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        @media (min-width: 769px) {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .galery__img {
+            img {
+                border-radius: 2rem;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
