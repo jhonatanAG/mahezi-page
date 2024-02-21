@@ -1,0 +1,125 @@
+.section__blog {
+    background-color: #F2F2F2;
+    padding-bottom: 5rem;
+
+    .about__blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: var(--white);
+        height: 30rem;
+        background-image: linear-gradient(to left, transparentize(#000, .5) 0%, transparentize(#38383a, .5) 100%), url('../../../../../assets/about/hintersee.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        h2 {
+            font-size: 5rem;
+        }
+
+
+        .about__title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: .5rem;
+            color: var(--white);
+            font-size: 2rem;
+
+            a {
+                color: var(--white);
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .blog__known {
+        margin-top: 5rem;
+
+        h2 {
+            text-align: center;
+            font-size: 4rem;
+            color: var(--primary-blue);
+            font-weight: 700;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+    }
+
+    .blog__grid {
+        margin-top: 5rem;
+        display: grid;
+        gap: 3rem;
+
+        @media (min-width: 769px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .blog__card {
+            img {
+                display: block;
+                width: 100%;
+            }
+
+            .card__description {
+                height: 18rem;
+                background-color: var(--white);
+                padding: 2rem;
+                font-weight: 700;
+                font-size: 1.6rem;
+
+                p {
+                    text-align: center;
+                    margin: 0;
+                }
+
+                .card__tips {
+                    margin: 1rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+
+                    a {
+                        color: var(--blue-social);
+                        font-size: 2rem;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        color: #4A6FA5;
+                    }
+
+                    p {
+                        color: #4A6FA5;
+                        margin: 0;
+                    }
+
+                    p:hover {
+                        color: var(--blue-social);
+                    }
+                }
+            }
+        }
+
+        .blog__card:hover {
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
+        }
+    }
+}
