@@ -1,5 +1,5 @@
 .section__blog {
-    background-color: #F2F2F2;
+    background-color: var(--light-grey);
     padding-bottom: 5rem;
 
     .about__blog {
@@ -101,11 +101,11 @@
                     }
 
                     a:hover {
-                        color: #4A6FA5;
+                        color: var(--secondary-blue);
                     }
 
                     p {
-                        color: #4A6FA5;
+                        color: var(--secondary-blue);
                         margin: 0;
                     }
 

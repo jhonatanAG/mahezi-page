@@ -1,10 +1,68 @@
 .section__login {
-    background-color: #F2F2F2;
+    background-color: var(--light-grey);
 
-    .form {
-        padding: 2rem;
-        background-color: var(--white);
+    .login__container {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10rem 0 10rem 0;
+
+        .login__logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+
+            img {
+                display: block;
+                width: 15rem;
+            }
+        }
+
+        .form {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // background-color: var(--white);
+
+            @media (min-width: 769px) {
+                width: 40%;
+            }
+
+            label,
+            .input {
+                width: 100%;
+                font-size: 1.6rem;
+            }
+
+            .input {
+                margin-top: .7rem;
+                margin-bottom: 2rem;
+                border-radius: .5rem;
+                border: none;
+                padding: 1rem;
+            }
+
+            .primary__button {
+                width: 100%;
+                padding: 1rem;
+                font-size: 1.8rem;
+                background-color: var(--blue-social);
+                color: var(--white);
+                font-weight: 700;
+
+                @media (min-width: 769px) {
+                    width: 60%;
+                }
+            }
+
+            .primary__button:hover {
+                background-color: var(--secondary-blue);
+            }
+        }
     }
+
 }

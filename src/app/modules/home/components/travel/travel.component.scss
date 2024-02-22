@@ -1,233 +1,237 @@
-.travel__img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: var(--white);
-    height: 30rem;
-    background-image: linear-gradient(to left, transparentize(#000, .5) 0%, transparentize(#38383a, .5) 100%), url('../../../../../assets/about/hintersee.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.travel {
+    background-color: var(--light-grey);
 
-    h2 {
-        font-size: 5rem;
-    }
-
-
-    .travel__title {
+    .travel__img {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: .5rem;
-        color: var(--white);
-        font-size: 2rem;
-
-        a {
-            color: var(--white);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        p {
-            margin: 0;
-        }
-    }
-}
-
-.travel__offers {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding: 2rem;
-
-    h2 {
-        font-size: 2.5rem;
-        text-align: center;
-        text-transform: uppercase;
-    }
-
-    @media (min-width: 769px) {
-        padding: 0;
-    }
-
-    .travel__grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-
-        @media (min-width: 769px) {
-            grid-template-columns: repeat(3, 1fr);
-        }
-
-        .travel__card {
-            img {
-                width: 100%;
-                display: block;
-                border-radius: 2rem 2rem 0 0;
-            }
-
-            .cards__info {
-                border-radius: 0 0 2rem 2rem;
-                background-color: var(--gray);
-                color: var(--white);
-                padding: 2rem;
-
-                h3 {
-                    font-size: 2rem;
-                    text-transform: uppercase;
-                    text-align: center;
-                }
-
-                p {
-                    font-weight: 400;
-                    font-size: 1.6rem;
-                    text-align: justify;
-                }
-            }
-
-            .cards__price {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 1rem;
-                text-transform: uppercase;
-                font-size: 1.6rem;
-
-                p {
-                    font-size: 1.5rem;
-                }
-
-                span {
-                    font-size: 2.3rem;
-                }
-
-                small {
-                    font-size: 1.2rem;
-                }
-
-                a {
-                    text-decoration: none;
-                    padding: 2rem;
-                    background-color: var(--primary-yellow);
-                    color: var(--black);
-                    font-weight: 700;
-                }
-            }
-        }
-
-        .travel__card:hover {
-            -webkit-box-shadow: 10px 10px 40px -15px rgba(0, 0, 0, 0.4);
-            -moz-box-shadow: 10px 10px 40px -15px rgba(0, 0, 0, 0.4);
-            box-shadow: 10px 10px 40px -15px rgba(0, 0, 0, 0.4);
-        }
-    }
-}
-
-.travel__promotion {
-    background-image: linear-gradient(to left, transparentize(#000, .5) 0%, transparentize(#05299e, .5) 100%), url('../../../../../assets/travel/dubai.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 2rem 0;
-    height: 80rem;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .promotion__text {
-        h2 {
-            text-align: center;
-            font-size: 10rem;
-            margin: 0;
-        }
-
-        p {
-            font-size: 4rem;
-            text-align: center;
-            margin: 0;
-        }
-
-        @media (min-width: 769px) {
-            h2 {
-                font-size: 20rem;
-            }
-
-            p {
-                font-size: 8rem;
-            }
-        }
-    }
-
-    .promotion__container {
-        color: var(--white);
-    }
-
-    .promotion__info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: var(--white);
+        height: 30rem;
+        background-image: linear-gradient(to left, transparentize(#000, .5) 0%, transparentize(#38383a, .5) 100%), url('../../../../../assets/about/hintersee.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 
-        .promotion__price {
-            margin-top: 2rem;
+        h2 {
+            font-size: 5rem;
+        }
+
+
+        .travel__title {
             display: flex;
-            align-items: center;
             justify-content: center;
-            gap: 2rem;
+            align-items: center;
+            gap: .5rem;
+            color: var(--white);
+            font-size: 2rem;
+
+            a {
+                color: var(--white);
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
 
             p {
-                font-size: 1.8rem;
+                margin: 0;
+            }
+        }
+    }
+
+    .travel__offers {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        padding: 2rem;
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        @media (min-width: 769px) {
+            padding: 0;
+        }
+
+        .travel__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+
+            @media (min-width: 769px) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .travel__card {
+                img {
+                    width: 100%;
+                    display: block;
+                    border-radius: 2rem 2rem 0 0;
+                }
+
+                .cards__info {
+                    border-radius: 0 0 2rem 2rem;
+                    background-color: var(--gray);
+                    color: var(--white);
+                    padding: 2rem;
+
+                    h3 {
+                        font-size: 2rem;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 1.6rem;
+                        text-align: justify;
+                    }
+                }
+
+                .cards__price {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1rem;
+                    text-transform: uppercase;
+                    font-size: 1.6rem;
+
+                    p {
+                        font-size: 1.5rem;
+                    }
+
+                    span {
+                        font-size: 2.3rem;
+                    }
+
+                    small {
+                        font-size: 1.2rem;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        padding: 2rem;
+                        background-color: var(--primary-yellow);
+                        color: var(--black);
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .travel__card:hover {
+                -webkit-box-shadow: 10px 10px 40px -15px rgba(0, 0, 0, 0.4);
+                -moz-box-shadow: 10px 10px 40px -15px rgba(0, 0, 0, 0.4);
+                box-shadow: 10px 10px 40px -15px rgba(0, 0, 0, 0.4);
+            }
+        }
+    }
+
+    .travel__promotion {
+        background-image: linear-gradient(to left, transparentize(#000, .5) 0%, transparentize(#05299e, .5) 100%), url('../../../../../assets/travel/dubai.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 2rem 0;
+        height: 80rem;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .promotion__text {
+            h2 {
+                text-align: center;
+                font-size: 10rem;
                 margin: 0;
             }
 
-            span {
-                font-size: 6rem;
-            }
-
-            small {
-                font-size: 1.5rem;
+            p {
+                font-size: 4rem;
+                text-align: center;
+                margin: 0;
             }
 
             @media (min-width: 769px) {
+                h2 {
+                    font-size: 20rem;
+                }
+
                 p {
-                    font-size: 4rem;
+                    font-size: 8rem;
+                }
+            }
+        }
+
+        .promotion__container {
+            color: var(--white);
+        }
+
+        .promotion__info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .promotion__price {
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+
+                p {
+                    font-size: 1.8rem;
+                    margin: 0;
                 }
 
                 span {
-                    font-size: 4rem;
+                    font-size: 6rem;
                 }
+
+                small {
+                    font-size: 1.5rem;
+                }
+
+                @media (min-width: 769px) {
+                    p {
+                        font-size: 4rem;
+                    }
+
+                    span {
+                        font-size: 4rem;
+                    }
+                }
+
+            }
+
+            .promotion__days {
+                display: flex;
+                gap: 2rem;
+                font-size: 2.5rem;
+                letter-spacing: .5rem;
             }
 
         }
 
-        .promotion__days {
-            display: flex;
-            gap: 2rem;
-            font-size: 2.5rem;
-            letter-spacing: .5rem;
-        }
+        .promotion__button {
+            padding: 2rem;
+            background-color: var(--primary-yellow);
+            font-size: 3rem;
+            text-align: center;
 
-    }
+            a {
+                text-decoration: none;
+                color: var(--white);
+            }
 
-    .promotion__button {
-        padding: 2rem;
-        background-color: var(--primary-yellow);
-        font-size: 3rem;
-        text-align: center;
-
-        a {
-            text-decoration: none;
-            color: var(--white);
-        }
-
-        @media (min-width: 769px) {
-            font-size: 2.5rem;
-            margin: 0 auto;
-            width: 40%;
+            @media (min-width: 769px) {
+                font-size: 2.5rem;
+                margin: 0 auto;
+                width: 40%;
+            }
         }
     }
 }
